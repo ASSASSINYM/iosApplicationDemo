@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Dog : NSObject
 
 @property(nonatomic,copy)NSString *name;
-@property(nonatomic,copy)NSString *sex;
+@property(nonatomic,copy)NSString *age
 
 @end
 
