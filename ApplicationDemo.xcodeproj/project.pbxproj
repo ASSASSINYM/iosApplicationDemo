@@ -23,6 +23,7 @@
 		650A53A72587626A005EB367 /* ADScreenAdaptation.m in Sources */ = {isa = PBXBuildFile; fileRef = 650A53A62587626A005EB367 /* ADScreenAdaptation.m */; };
 		650A53AD258764CD005EB367 /* MTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650A53AC258764CD005EB367 /* MTTableViewController.m */; };
 		650A53B425876686005EB367 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 650A53B325876686005EB367 /* UIViewController+Storyboard.m */; };
+		652CAF0125877407007A4C3D /* UIViewController+CellIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF0025877407007A4C3D /* UIViewController+CellIdentifier.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		650A53AC258764CD005EB367 /* MTTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTableViewController.m; sourceTree = "<group>"; };
 		650A53B225876686005EB367 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
 		650A53B325876686005EB367 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
+		652CAEFF25877407007A4C3D /* UIViewController+CellIdentifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CellIdentifier.h"; sourceTree = "<group>"; };
+		652CAF0025877407007A4C3D /* UIViewController+CellIdentifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CellIdentifier.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 			children = (
 				650A53B225876686005EB367 /* UIViewController+Storyboard.h */,
 				650A53B325876686005EB367 /* UIViewController+Storyboard.m */,
+				652CAEFF25877407007A4C3D /* UIViewController+CellIdentifier.h */,
+				652CAF0025877407007A4C3D /* UIViewController+CellIdentifier.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -312,6 +317,7 @@
 				650A53A12587524D005EB367 /* HomeTap.m in Sources */,
 				650A5357258749E4005EB367 /* ViewController.m in Sources */,
 				650A53AD258764CD005EB367 /* MTTableViewController.m in Sources */,
+				652CAF0125877407007A4C3D /* UIViewController+CellIdentifier.m in Sources */,
 				650A539B25874E75005EB367 /* MTHomeViewController.m in Sources */,
 				650A53A72587626A005EB367 /* ADScreenAdaptation.m in Sources */,
 				650A53B425876686005EB367 /* UIViewController+Storyboard.m in Sources */,
