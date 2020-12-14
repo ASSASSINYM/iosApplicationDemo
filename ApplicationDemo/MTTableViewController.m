@@ -6,6 +6,7 @@
 //
 
 #import "MTTableViewController.h"
+#import "UIViewController+CellIdentifier.h"
 
 @interface MTTableViewController ()
 
@@ -21,6 +22,9 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    UINib *nibCell = [UINib nibWithNibName:@"" bundle:nil];
+    [self.tableView registerNib:nibCell forCellReuseIdentifier:self.cellIdentifier];
 }
 
 //#pragma mark - Table view data source

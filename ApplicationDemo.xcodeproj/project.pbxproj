@@ -24,6 +24,7 @@
 		650A53AD258764CD005EB367 /* MTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650A53AC258764CD005EB367 /* MTTableViewController.m */; };
 		650A53B425876686005EB367 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 650A53B325876686005EB367 /* UIViewController+Storyboard.m */; };
 		652CAF0125877407007A4C3D /* UIViewController+CellIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF0025877407007A4C3D /* UIViewController+CellIdentifier.m */; };
+		652CAF072587762C007A4C3D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF062587762C007A4C3D /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		650A53B325876686005EB367 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
 		652CAEFF25877407007A4C3D /* UIViewController+CellIdentifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CellIdentifier.h"; sourceTree = "<group>"; };
 		652CAF0025877407007A4C3D /* UIViewController+CellIdentifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CellIdentifier.m"; sourceTree = "<group>"; };
+		652CAF052587762C007A4C3D /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		652CAF062587762C007A4C3D /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 				650A53A02587524D005EB367 /* HomeTap.m */,
 				650A53AB258764CD005EB367 /* MTTableViewController.h */,
 				650A53AC258764CD005EB367 /* MTTableViewController.m */,
+				652CAF052587762C007A4C3D /* Dog.h */,
+				652CAF062587762C007A4C3D /* Dog.m */,
 			);
 			path = ApplicationDemo;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				650A5365258749E7005EB367 /* main.m in Sources */,
+				652CAF072587762C007A4C3D /* Dog.m in Sources */,
 				650A538C25874A13005EB367 /* MTApplication.m in Sources */,
 				650A53A12587524D005EB367 /* HomeTap.m in Sources */,
 				650A5357258749E4005EB367 /* ViewController.m in Sources */,
