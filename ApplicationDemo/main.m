@@ -6,13 +6,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import "MTApplication.h"
+#import "MTAppDelegate.h"
 
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;
+    NSString * applicationClassName;
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
-        appDelegateClassName = NSStringFromClass([AppDelegate class]);
+        appDelegateClassName = NSStringFromClass([MTAppDelegate class]);
+        applicationClassName = NSStringFromClass([MTApplication class]);
     }
-    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
+    return UIApplicationMain(argc, argv, applicationClassName, appDelegateClassName);
 }
