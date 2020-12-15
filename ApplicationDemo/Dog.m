@@ -9,4 +9,8 @@
 
 @implementation Dog
 
+-(void)bark {
+    NSLog(@"i wanna bark!!!!");
+}
+
 @end
