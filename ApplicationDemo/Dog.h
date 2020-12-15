@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy)NSString *price;
 
 -(void)bark;
+@property(nonatomic,copy)NSString *sex;
 
 @end
 
